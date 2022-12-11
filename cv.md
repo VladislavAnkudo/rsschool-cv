@@ -20,3 +20,14 @@ at the moment I am studying in college and I want to become a frontend developer
 
 secondary special
 
+### Example code
+
+const zeroFuel = (distanceToPump , mpg, fuelLeft) => {
+   return mpg * fuelLeft >= distanceToPump
+  if (zeroFuel>1){
+    return true
+    } else{
+      return false
+    }
+};
+
